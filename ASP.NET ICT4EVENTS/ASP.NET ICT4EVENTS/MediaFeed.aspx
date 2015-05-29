@@ -3,13 +3,13 @@
     <table class="mediaFeed" style="width:100%">
         <tr>
             <td>
-                <asp:Image runat="server" ID="Image1" Height="187px" ImageUrl="~/Images/SjonhetSchaap.jpg" Width="183px"/>
+                <asp:Image runat="server" ID="Image1" Height="187px" Width="150px"/>
             </td>
             <td>
-                <asp:Image runat="server" ID="Image2" Height="187px" ImageUrl="~/Images/SjonhetSchaap.jpg" Width="183px"/>
+                <asp:Image runat="server" ID="Image2" Height="187px" Width="150px"/>
             </td>
             <td>
-                <asp:Image runat="server" ID="Image3" Height="187px" ImageUrl="~/Images/SjonhetSchaap.jpg" Width="183px"/>
+                <asp:Image runat="server" ID="Image3" Height="187px" Width="150px"/>
             </td>
         </tr>
 
