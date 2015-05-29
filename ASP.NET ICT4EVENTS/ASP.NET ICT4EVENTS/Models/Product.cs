@@ -21,8 +21,5 @@ namespace ASP.NET_ICT4EVENTS.Models
             Typenummer = typenummer;
             Prijs = prijs;
         }
-
-
-
     }
 }
