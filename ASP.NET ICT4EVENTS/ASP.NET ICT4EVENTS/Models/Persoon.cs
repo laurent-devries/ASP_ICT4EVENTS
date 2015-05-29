@@ -16,9 +16,16 @@ namespace ASP.NET_ICT4EVENTS.Models
         public string Woonplaats { get; set; }
         public string BankNr { get; set; }
 
-        public Persoon()
+        public Persoon(int id_Persoon, string voornaam, string tussenvoegsel, string achternaam, string straat, int huisnr, string woonplaats, string bankNr)
         {
-
+            Id_Persoon = id_Persoon;
+            Voornaam = voornaam;
+            Tussenvoegsel = tussenvoegsel;
+            Achternaam = achternaam;
+            Straat = straat;
+            Huisnr = huisnr;
+            Woonplaats = woonplaats;
+            BankNr = bankNr;
         }
     }
 }

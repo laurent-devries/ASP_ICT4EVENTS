@@ -11,9 +11,11 @@ namespace ASP.NET_ICT4EVENTS.Models
         public DateTime Datum { get; set; }
         public string Naam { get; set; }
 
-        public Bijdrage()
+        public Bijdrage(int id_Bijdrage, DateTime datum, string naam)
         {
-
+            Id_Bijdrage = id_Bijdrage;
+            Datum = datum;
+            Naam = naam;
         }
     }
 }

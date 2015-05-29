@@ -14,9 +14,14 @@ namespace ASP.NET_ICT4EVENTS.Models
         public string Postcode { get; set; }
         public string Plaats { get; set; }
 
-        public Locatie()
+        public Locatie(int id_Locatie, string naam, string straat, int nr, string postcode, string plaats)
         {
-
+            Id_Locatie = id_Locatie;
+            Naam = naam;
+            Straat = straat;
+            Nr = nr;
+            Postcode = postcode;
+            Plaats = plaats;
         }
     }
 }

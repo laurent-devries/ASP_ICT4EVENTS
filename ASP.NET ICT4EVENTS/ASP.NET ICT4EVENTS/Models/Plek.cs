@@ -14,7 +14,7 @@ namespace ASP.NET_ICT4EVENTS.Models
 
         public Plek()
         {
-
+            
         }
     }
 }
