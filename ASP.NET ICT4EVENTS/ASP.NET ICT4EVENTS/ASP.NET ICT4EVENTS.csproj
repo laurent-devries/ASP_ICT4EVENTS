@@ -303,6 +303,7 @@
     <Compile Include="Models\Locatie.cs" />
     <Compile Include="Models\PlekManager.cs" />
     <Compile Include="Models\ProductManager.cs" />
+    <Compile Include="Models\ReserveringManager.cs" />
     <Compile Include="Models\Verhuur.cs" />
     <Compile Include="Models\Persoon.cs" />
     <Compile Include="Models\Plek.cs" />
