@@ -158,6 +158,8 @@
     <Content Include="EventManagement.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="HireManagement.aspx" />
+    <Content Include="Images\SjonhetSchaap.jpg" />
+    <Content Include="MediaFeed.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -282,14 +284,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="MediaFeed.aspx.cs">
+      <DependentUpon>MediaFeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MediaFeed.aspx.designer.cs">
+      <DependentUpon>MediaFeed.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\Account.cs" />
-    <Compile Include="Models\AccountManager.cs" />
+    <Compile Include="Controllers\AccountManager.cs" />
     <Compile Include="Models\Bericht.cs" />
     <Compile Include="Models\Bestand.cs" />
     <Compile Include="Models\Bijdrage.cs" />
-    <Compile Include="Models\BijdrageManager.cs" />
+    <Compile Include="Controllers\BijdrageManager.cs" />
     <Compile Include="Models\Categorie.cs" />
-    <Compile Include="Models\CategorieManager.cs" />
+    <Compile Include="Controllers\CategorieManager.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="HireManagement.aspx.cs">
       <DependentUpon>HireManagement.aspx</DependentUpon>
@@ -298,13 +307,12 @@
     <Compile Include="HireManagement.aspx.designer.cs">
       <DependentUpon>HireManagement.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Models\EventManager.cs" />
+    <Compile Include="Controllers\EventManager.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Locatie.cs" />
-    <Compile Include="Models\PlekManager.cs" />
-    <Compile Include="Models\ProductCatManager.cs" />
-    <Compile Include="Models\ProductManager.cs" />
-    <Compile Include="Models\ReserveringManager.cs" />
+    <Compile Include="Controllers\PlekManager.cs" />
+    <Compile Include="Controllers\ProductManager.cs" />
+    <Compile Include="Controllers\ReserveringManager.cs" />
     <Compile Include="Models\Verhuur.cs" />
     <Compile Include="Models\Persoon.cs" />
     <Compile Include="Models\Plek.cs" />
@@ -314,7 +322,7 @@
     <Compile Include="Models\Reservering.cs" />
     <Compile Include="Models\Specificatie.cs" />
     <Compile Include="Models\Polsbandje.cs" />
-    <Compile Include="Models\VerhuurManager.cs" />
+    <Compile Include="Controllers\VerhuurManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
