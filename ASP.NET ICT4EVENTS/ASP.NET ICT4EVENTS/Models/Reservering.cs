@@ -12,9 +12,12 @@ namespace ASP.NET_ICT4EVENTS.Models
         public DateTime DatumEinde { get; set; }
         public bool Betaald { get; set; }
 
-        public Reservering()
+        public Reservering(int id_Reservering, DateTime datumStart, DateTime datumEinde)
         {
-
+            Id_Reservering = id_Reservering;
+            DatumStart = datumStart;
+            DatumEinde = datumEinde;
+            Betaald = false;
         }
     }
 }

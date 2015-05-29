@@ -13,9 +13,13 @@ namespace ASP.NET_ICT4EVENTS.Models
         public Decimal Prijs { get; set; }
         public bool Betaald { get; set; }
 
-        public Verhuur()
+        public Verhuur(int id_Verhuur, DateTime datumIn, DateTime datumUit, Decimal prijs)
         {
-
+            Id_Verhuur = id_Verhuur;
+            DatumIn = datumIn;
+            DatumUit = datumUit;
+            Prijs = prijs;
+            Betaald = false;
         }
     }
 }

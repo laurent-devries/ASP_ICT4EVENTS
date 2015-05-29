@@ -12,9 +12,12 @@ namespace ASP.NET_ICT4EVENTS.Models
         public int Capaciteit { get; set; }
         public int Waarde { get; set; }
 
-        public Plek()
+        public Plek(int id_Plek, int nummer, int capaciteit, int waarde)
         {
-            
+            Id_Plek = id_Plek;
+            Nummer = nummer;
+            Capaciteit = capaciteit;
+            Waarde = waarde;
         }
     }
 }
