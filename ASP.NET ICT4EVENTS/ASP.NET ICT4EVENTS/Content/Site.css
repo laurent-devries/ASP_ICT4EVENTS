@@ -17,6 +17,8 @@ input[type="password"] {
     max-width: 280px;
 }
 
+
+/*Source: http://inspirationalpixels.com/tutorials/creating-a-dropdown-menu-with-html-css Frank*/
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
@@ -25,4 +27,65 @@ input[type="password"] {
     .body-content {
         padding: 0;
     }
+}
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+.menu,
+.menu ul {
+    list-style: none;
+}
+.menu {
+    float: left;
+}
+.menu > li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+    color: #f7941d;
+    margin-top: 10px;
+}
+.menu ul {
+    position: absolute;
+    display: none;
+    z-index: 999;
+    padding: 0;
+    padding-right: 25px;
+}
+.menu li:hover ul {
+    display: block;
+}
+
+/* Submenu
+------------------------------------------*/
+.menu ul {
+    background: #222222;
+}
+.menu ul li a {
+    color: #f7941d;
+}
+
+/* Navbar*/
+.navbar-collapse collapse {
+    color: #f7941d;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #f7941d;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f7941d;
+}
+
+.menu a:hover{
+    color: white;
 }
