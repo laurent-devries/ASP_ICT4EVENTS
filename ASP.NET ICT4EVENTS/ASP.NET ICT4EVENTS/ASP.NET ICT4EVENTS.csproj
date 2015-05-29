@@ -158,6 +158,8 @@
     <Content Include="EventManagement.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="HireManagement.aspx" />
+    <Content Include="Images\SjonhetSchaap.jpg" />
+    <Content Include="MediaFeed.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -282,7 +284,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-	<Compile Include="Models\Account.cs" />
+    <Compile Include="MediaFeed.aspx.cs">
+      <DependentUpon>MediaFeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MediaFeed.aspx.designer.cs">
+      <DependentUpon>MediaFeed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Bericht.cs" />
     <Compile Include="Models\Bestand.cs" />
     <Compile Include="Models\Bijdrage.cs" />

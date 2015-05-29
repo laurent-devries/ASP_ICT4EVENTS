@@ -89,3 +89,12 @@ input[type="password"] {
 .menu a:hover{
     color: white;
 }
+
+/* Media Feed*/
+.mediaFeed td {
+    width: 100%;
+}
+
+table{
+    table-layout: fixed;
+}
